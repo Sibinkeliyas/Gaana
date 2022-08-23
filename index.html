@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+   
+                <!-- nav -->
+
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
+                  <div class="container-fluid w-100">
+                  <div class="row">
+                  <div class="col-12 col-md-4">
+                  <img style="    width: 11rem;
+                  height: 3rem;
+                  padding-left: 3%;" src="gaanalogo.webp" alt="">
+                </div>
+                <div class=".col-12 col-md-6 mt-2 ms-3">
+                  <div class="input-group">
+                    <div class="form-outline">
+                      <input type="search" id="form1" class="form-control w-150 " placeholder="search Artist,song,Album " />
+                     
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+
+
+<!-- navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <div class="container-fluid ms-5">
+    
+          <button class="navbar-toggler border-0 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon ms-0 "></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+              <a class="nav-link active fw-bold"  aria-current="page" href="#"> All</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"> Trending songs</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active" href="#">New songs</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active" href="#">old songs</a>
+              </li>
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Mood & Genres
+              </a>
+              <dl class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
+                <dt >Party</a></dt>
+                <dd><a class="dropdown-item " href="#"></a></dd>
+                <dt>Romance</dt>
+                <dd><a class="dropdown-item" href="#"></a></dd>
+                <dt>90 & 2000s</dt>
+                <dd><a class="dropdown-item" href="#"></a></dd>
+                <dt>Retro</dt>
+                <dd><a class="dropdown-item" href="#"></a></dd>
+              </dl>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active" href="#">Album</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active" href="#">Radio</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active" href="#">Podcast</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active" href="#">My music</a>
+              </li>
+             
+            </ul>
+            
+           
+                    <ul class="navbar-nav ms-auto mb-2 me-5 mb-lg-0">
+                    
+                      <li class="nav-item dropdown ms-5">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-translate text-secondary" style="font-size:20px;"></i>
+                      </a>
+                      <dl class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
+                        <dt >Music Language</dt>
+                        <dd><a class="dropdown-item " href="#"></a></dd>
+                        <dd><a class="dropdown-item " href="#"></a></dd>
+                        <dt ><p class="text-danger">English</p></a></dt>
+                        <dd><a class="dropdown-item " href="#"></p></a></dd>
+                        <dt><p class="text-danger">Malayalam</p></dt>
+                        <dd><a class="dropdown-item" href="#"></a></dd>
+                        <dt>Tamil</dt>
+                        <dd><a class="dropdown-item" href="#"></a></dd>
+                        <dt>Hindi</dt>
+                        <dd><a class="dropdown-item" href="#"></a></dd>
+                      </dl>
+                     </ul>
+                  
+                   <button class="btn text-dark border-0 me-5">Login/SignIn</button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </nav>
+
+
+
+          
+            <!-- Slideshow container -->
+          
+                       
+                       <div class="slideshow-container mt-5 ">
+
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides fade ">
+                          
+                          <img src="gaana1.webp" style="width:100%">
+                          <div class="text">Caption Text</div>
+                        </div>
+      
+                        <div class="mySlides fade">
+                          
+                          <img src="gaana2.webp" style="width:100%">
+                          <div class="text">Caption Two</div>
+                        </div>
+      
+                        <div class="mySlides fade">
+                          
+                          <img src="gaana3.webp" style="width:100%">
+                          <div class="text">Caption Three</div>
+                        </div>
+                        <div class="mySlides fade">
+                          
+                          <img src="gaana4.webp" style="width:100%">
+                          <div class="text">Caption Three</div>
+                        </div>
+                        <div class="mySlides fade">
+                          
+                          <img src="gaana5.webp" style="width:100%">
+                          <div class="text">Caption Three</div>
+                        </div>
+                        <div class="mySlides fade">
+                          
+                          <img src="gaana6.webp" style="width:100%">
+                          <div class="text">Caption Three</div>
+                        </div>
+                        <div class="mySlides fade">
+                        
+                          <img src="gaana7.webp" style="width:100%">
+                          <div class="text">Caption Three</div>
+                        </div>
+      
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                      </div>
+                      <br>
+      
+                      <!-- The dots/circles -->
+                      <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                        <span class="dot" onclick="currentSlide(6)"></span>
+                        <span class="dot" onclick="currentSlide(7)"></span>
+                      </div>
+
+<!-- songs card -->
+
+<div class="container mt-0" id="songs"><br><br>
+            <h3 class=" text-dark"> Trending songs</h3> <br>
+                <div class="row my-2">
+                    <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                            <div class="card text-center" style="width: 10rem ;">
+                            <img src="gaanasongs/song1.jpg" class="card-img-top" style="width: 10rem;" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Teri gallion se</h5>
+                            </div>
+                            </div>
+                    </div>
+                     <div class="col-12 col-sm-4 col-md-3 col-lg-2 ">
+                            <div class="card text-center" style="width: 10rem ;">
+                            <img src="gaanasongs/song2.jpg" class="card-img-top" style="width: 10rem;" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Summer high</h5>
+                            </div>
+                            </div>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                            <div class="card text-center" style="width: 10rem ;">
+                            <img src="gaanasongs/song3.jpg" class="card-img-top" style="width: 10rem;" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">I Wish I </h5>
+                            </div>
+                            </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                            <div class="card text-center" style="width: 10rem ;">
+                            <img src="gaanasongs/song4.jpg" class="card-img-top" style="width: 10rem;" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Barsat Ho </h5>
+                            </div>
+                            </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                            <div class="card text-center" style="width: 10rem ;">
+                            <img src="gaanasongs/song7.jpg" class="card-img-top" style="width: 10rem;" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Photo</h5>
+                            </div>
+                            </div>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                            <div class="card text-center" style="width: 10rem ;">
+                            <img src="gaanasongs/song6.jpg" class="card-img-top" style="width: 10rem;" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Gimmie </h5>
+                            </div>
+                            </div>
+                </div>
+          </div>
+          <h3 class=" text-dark mt-5"> New releases songs</h3> <br>
+          <div class="row my-2">
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                          <div class="card text-center" style="width: 10rem ;">
+                          <img src="gaanasongs/song7.jpg" class="card-img-top" style="width: 10rem;" alt="...">
+                          <div class="card-body">
+                          <h5 class="card-title">Dariya hai</h5>
+                          </div>
+                          </div>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                          <div class="card text-center" style="width: 10rem ;">
+                          <img src="gaanasongs/song8.jpg" class="card-img-top" style="width: 10rem;" alt="...">
+                          <div class="card-body">
+                          <h5 class="card-title">Feel Safe</h5>
+                          </div>
+                          </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                          <div class="card text-center" style="width: 10rem ;">
+                          <img src="gaanasongs/song9.jpg" class="card-img-top" style="width: 10rem;" alt="...">
+                          <div class="card-body">
+                          <h5 class="card-title">Peaches</h5>
+                          </div>
+                          </div>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                          <div class="card text-center" style="width: 10rem ;">
+                          <img src="gaanasongs/song12.webp" class="card-img-top" style="width: 10rem;" alt="...">
+                          <div class="card-body">
+                          <h5 class="card-title">Barsat Ho </h5>
+                          </div>
+                          </div>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                          <div class="card text-center" style="width: 10rem ;">
+                          <img src="gaanasongs/song10.jpg" class="card-img-top" style="width: 10rem;" alt="...">
+                          <div class="card-body">
+                          <h5 class="card-title">Ishq Hasir Hai</h5>
+                          </div>
+                          </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                          <div class="card text-center" style="width: 10rem ;">
+                          <img src="gaanasongs/song11.jpg" class="card-img-top" style="width: 10rem;" alt="...">
+                          <div class="card-body">
+                          <h5 class="card-title">Breezy</h5>
+                          </div>
+                          </div>
+              </div>
+          </div>
+          <h3 class=" text-dark"> Top Charts</h3> <br>
+          <div class="row my-2">
+                    <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                            <div class="card text-center" style="width: 10rem ;">
+                            <img src="gaanasongs/song13.webp" class="card-img-top" style="width: 10rem;" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Hindi Top 50</h5>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                            <div class="card text-center" style="width: 10rem ;">
+                            <img src="gaanasongs/song14.webp" class="card-img-top" style="width: 10rem;" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Punjabi Top 15</h5>
+                            </div>
+                            </div>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                            <div class="card text-center" style="width: 10rem ;">
+                            <img src="gaanasongs/song15.webp" class="card-img-top" style="width: 10rem;" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">International top</h5>
+                            </div>
+                            </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                            <div class="card text-center" style="width: 10rem ;">
+                            <img src="gaanasongs/song17.webp" class="card-img-top" style="width: 10rem;" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Hindi romance Top</h5>
+                            </div>
+                            </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                            <div class="card text-center" style="width: 10rem ;">
+                            <img src="gaanasongs/song19.webp" class="card-img-top" style="width: 10rem;" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Panjabi romance top </h5>
+                            </div>
+                            </div>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                            <div class="card text-center" style="width: 10rem ;">
+                            <img src="gaanasongs/song18.webp" class="card-img-top" style="width: 10rem;" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">EDM</h5>
+                            </div>
+                            </div>
+                </div>
+          </div>
+          <h3 class=" text-dark"> Top Playlists</h3> <br>
+          <div class="row my-2">
+                    <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                            <div class="card text-center" style="width: 10rem ;">
+                            <img src="gaanasongs/song20.webp" class="card-img-top" style="width: 10rem;" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">2000s happy Hits</h5>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                            <div class="card text-center" style="width: 10rem ;">
+                            <img src="gaanasongs/song21.webp" class="card-img-top" style="width: 10rem;" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Best of sidhu</h5>
+                            </div>
+                            </div>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                            <div class="card text-center" style="width: 10rem ;">
+                            <img src="gaanasongs/song22.webp" class="card-img-top" style="width: 10rem;" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Big Hits</h5>
+                            </div>
+                            </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                            <div class="card text-center" style="width: 10rem ;">
+                            <img src="gaanasongs/song23.webp" class="card-img-top" style="width: 10rem;" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Love storiyaan </h5>
+                            </div>
+                            </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-3 col-lg-2 ">
+                            <div class="card text-center" style="width: 10rem ;">
+                            <img src="gaanasongs/song24.webp" class="card-img-top " style="width: 10rem;" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Big hits punjabi</h5>
+                            </div>
+                            </div>
+              </div>
+              <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                            <div class="card text-center" style="width: 10rem ;">
+                            <img src="gaanasongs/song7.jpg" class="card-img-top" style="width: 10rem;" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">B prak</h5>
+                            </div>
+                            </div>
+                </div>
+          </div>
+</div>
+
+
+<!-- Artist card -->
+
+<div class="container mt-5" id="songs"><br><br>
+  <h3 class="mb-3">Featured Artist</h3>
+          <div class="row my-2">
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card text-center border-0" style="width: 10rem ;">
+                    <img src="gaanasongs/singer1.webp" class="card-img-top rounded-circle" style="width: 10rem;" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Arjith sigh</h5>
+                    </div>
+                    </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card text-center border-0" style="width: 10rem ;">
+                    <img src="gaanasongs/singer2.webp" class="card-img-top rounded-circle" style="width: 10rem;" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Pritam</h5>
+                    </div>
+                    </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card text-center border-0" style="width: 10rem ;">
+                    <img src="gaanasongs/singer3.webp" class="card-img-top rounded-circle" style="width: 10rem;" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">thanishk bachi</h5>
+                    </div>
+                    </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card text-center border-0" style="width: 10rem ;">
+                    <img src="gaanasongs/singer4.webp" class="card-img-top rounded-circle" style="width: 10rem;" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Neha kakkar</h5>
+                    </div>
+                    </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2 ">
+                    <div class="card text-center border-0" style="width: 10rem ;">
+                    <img src="gaanasongs/singer5.webp" class="card-img-top rounded-circle" style="width: 10rem;" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Yoyo honey</h5>
+                    </div>
+                    </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card text-center border-0" style="width: 10rem ;">
+                    <img src="gaanasongs/singer6.webp" class="card-img-top rounded-circle" style="width: 10rem;" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Badshah</h5>
+                    </div>
+                    </div>
+          </div>
+        </div>
+
+        <h3 class="mb-3">Radio</h3>
+        <div class="row my-2">
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                  <div class="card text-center border-0" style="width: 10rem ;">
+                  <img src="gaanasongs/singer7.webp" class="card-img-top rounded-circle" style="width: 10rem;" alt="...">
+                  <div class="card-body">
+                  <h5 class="card-title">Love hits</h5>
+                  </div>
+                  </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                  <div class="card text-center border-0" style="width: 10rem ;">
+                  <img src="gaanasongs/singer8.webp" class="card-img-top rounded-circle" style="width: 10rem;" alt="...">
+                  <div class="card-body">
+                  <h5 class="card-title">Love songs</h5>
+                  </div>
+                  </div>
+        </div>
+        <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                  <div class="card text-center border-0" style="width: 10rem ;">
+                  <img src="gaanasongs/singer9.webp" class="card-img-top rounded-circle" style="width: 10rem;" alt="...">
+                  <div class="card-body">
+                  <h5 class="card-title">Party non stop</h5>
+                  </div>
+                  </div>
+        </div>
+        <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                  <div class="card text-center border-0" style="width: 10rem ;">
+                  <img src="gaanasongs/singer10.webp" class="card-img-top rounded-circle" style="width: 10rem;" alt="...">
+                  <div class="card-body">
+                  <h5 class="card-title">90's & 2000's</h5>
+                  </div>
+                  </div>
+        </div>
+        <div class="col-12 col-sm-4 col-md-3 col-lg-2 ">
+                  <div class="card text-center border-0" style="width: 10rem ;">
+                  <img src="gaanasongs/singer11.webp" class="card-img-top rounded-circle" style="width: 10rem;" alt="...">
+                  <div class="card-body">
+                  <h5 class="card-title">Work out</h5>
+                  </div>
+                  </div>
+        </div>
+        <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                  <div class="card text-center border-0" style="width: 10rem ;">
+                  <img src="gaanasongs/singer12.webp" class="card-img-top rounded-circle" style="width: 10rem;" alt="...">
+                  <div class="card-body">
+                  <h5 class="card-title">Morning Mix</h5>
+                  </div>
+                  </div>
+        </div>
+      </div>
+</div>
+
+<!-- Booter -->
+
+          <div class="booter container-fluid   align-middle">
+              <div class="border-bottom">
+              <h1 class="text-center mt-5">Bas Bajna Chahiye Gaana</h1>
+              <p class="text-center text-secondary">Gaana is the one-stop solution for all your music needs. Gaana offers you free, unlimited access to over 30<br> million Hindi Songs, Bollywood Music, English MP3 songs, Regional Music & Mirchi Play.</p>
+              </div>
+              <div class="border-bottom  booter1" >
+                  <a href="https://www.facebook.com/gaana.com/" class="">          
+                  <i class="bi bi-facebook e" style="font-size:40px;"></i></a>
+                  <a href="https://twitter.com/gaana"><i class="bi bi-twitter ms-4" style="font-size:40px;"></i></a> 
+              </div>
+              <div class="border-bottom  booter2 w-100" >
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-2"> <p class="terms "><a href="https://ads.gaana.com/" class="text-decoration-none text-dark">Advertise on Gaana.com </a></p></div>
+                  <div class="col-12 col-sm-6 col-md-2"> <p class="terms">Terms of Use</p></div>
+                  <div class="col-12 col-sm-6 col-md-2"> <p class="terms"> Privacy Policy</a></p></div>
+                  <div class="col-12 col-sm-6 col-md-2"> <p class="terms"> <a href="https://gaana.com/aboutgaana" class="text-decoration-none text-dark">Partners</p></a></div>
+                  <div class="col-12 col-sm-6 col-md-2"> <p class="terms"><a href="https://gaana.com/sitemap/sitemap.html" class="text-decoration-none text-dark"> Sitemap</a></p></div>
+                  <div class="col-12 col-sm-6 col-md-2"> <p class="terms"><a href="https://gaana.com/faq "class="text-decoration-none text-dark"> FAQ</a></p></div>
+                </div>
+              </div>
+          
+
+          
+
+
+
+          <!-- footer row-->
+          
+                  <div class="row ms-5">
+                    <div class="col-12 col-sm-4 col-md-3 col-lg-2 ms-5 ">
+                            <div class="card  border-0 crd" style="width: 10rem ;">
+                            <p class="title">Album</p>
+                            <p class="subtitle text-secondary">
+                              English <br>
+                              Hindi<br>
+                              Telugu<br>
+                              Punjabi<br>
+                              Tamil<br>
+                              Kannada<br>
+                              Bhojpuri<br>
+                              Malayalam<br>
+                              Marathi<br>
+                              Bengali<br>
+                              Haryanvi<br>
+                              Gujarati Songs<br>
+                            </p>
+                            <p class="text-danger title">View All</p>
+                            </div></div>
+                    
+                            <div class="col-12 col-sm-4 col-md-3 col-lg-2 ms-5 ">
+                              <div class="card  border-0 crd" style="width: 10rem ;">
+                              <p class="title">Genres</p>
+                              <p class="subtitle text-secondary">
+                                  Bollywood Songs <br>
+                                  Devotional Songs<br>
+                                  Ghazals<br>
+                                  Bhajan<br>
+                                  Patriotic Songs<br>
+                                  Kids Songs<br>
+                                  Rock Songs<br>
+                                  Disco Songs<br>
+                                  Sufi Songs<br>
+                                  Love Songs<br>
+                              </p>
+                              <p class="text-danger title">View All</p>
+                              </div>
+                            </div>
+                  
+                            <div class="col-12 col-sm-4 col-md-3 col-lg-2 ms-5 ">
+                              <div class="card  border-0 crd" style="width: 10rem ;">
+                              <p class="title">Artist</p>
+                                <p class="subtitle text-secondary">
+                                  Arijit Singh<br>
+                                  Neha Kakkar<br>
+                                  Honey Singh<br>
+                                  Atif Aslam<br>
+                                  A R Rahman<br>
+                                  Lata Mangeshkar<br>
+                                  Kishore Kumar<br>
+                                  Armaan Malik<br>
+                                  Sunidhi Chauhan<br>
+                                  Nusrat Fateh Ali Khan<br>
+                                  Mohammed Rafi<br>
+                                  Guru Randhawa<br>
+                                  Justin Bieber<br>
+                                  BTS
+                                <br>
+                                </p>
+                                <p class="text-danger title">View All</p>
+                          </div>
+                          </div>
+                
+                                  <div class="col-12 col-sm-4 col-md-3 col-lg-2 ms-5 ">
+                                    <div class="card  border-0 crd" style="width: 10rem ;">
+                                    <p class="title">New releases</p>
+                                    <p class="subtitle text-secondary">
+                                        English Songs<br>
+                                        Hindi Songs<br>
+                                        Punjabi Songs<br>
+                                        Tamil Songs<br>
+                                        Telugu Songs<br>
+                                        Kannada Songs<br>
+                                        Bhojpuri Songs<br>
+                                        Malayalam Songs<br>
+                                        Marathi Songs<br>
+                                        Bengali Songs<br>
+                                        Assamese Songs<br>
+                                        Haryanvi Songs<br>
+                                        Gujarati<br>
+                                        Odia Songs<br>
+                                        Urdu Songs<br>
+                                    </p>
+                                    <p class="text-danger title ">View All</p>
+                                    </div>
+                                  </div>
+                    
+                </div>
+
+
+                <div class="row m-5">
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2 ms-5 ">
+                          <div class="card  border-0 crd" style="width: 10rem ;">
+                          <p class="title">Trending songs</p>
+                          <p class="subtitle text-secondary">
+                            Vibe Song<br>
+                            Hanuman Chalisa<br>
+                            Black & White<br>
+                            Mast Maula<br>
+                            Party All Night<br>
+                            Manike Mage Hithe Tamil<br>
+                            Dil Galti Kar Baitha Hai<br>
+                            Ik Mili Mainu Apsraa<br>
+                            Baarish Ki Jaaye<br>
+                            Raataan Lambiyan<br>
+                            Phoonk Le<br>
+                            Koi Sehri Babu<br>
+                            Mainu Nai Pehchaandi<br>
+                            Jugnu<br>
+                            Manike Mage Hithe<br>
+                          </p>
+                          <p class="text-danger title">View All</p>
+                          </div></div>
+                  
+                          <div class="col-12 col-sm-4 col-md-3 col-lg-2 ms-5 ">
+                            <div class="card  border-0 crd" style="width: 10rem ;">
+                            <p class="title">Trending albums</p>
+                            <p class="subtitle text-secondary">
+                              Happy Birthday Songs<br>
+                              Sad Songs<br>
+                              PK Songs<br>
+                              Jersey<br>
+                              Bunty Aur Babli 2<br>
+                              Chandigarh Kare Aashiqui<br>
+                              Master Tamil<br>
+                              Pushpa The Rise<br>
+                              Uppena<br>
+                              Enemy Tamil<br>
+                              Shershaah<br>
+                              Jai Bhim<br>
+                              Sooryavanshi<br>
+                              Dhamaka<br>
+                              Gaming Music<br>
+                              
+                            </p>
+                            <p class="text-danger title">View All</p>
+                            </div>
+                          </div>
+                
+                          <div class="col-12 col-sm-4 col-md-3 col-lg-2 ms-5 ">
+                            <div class="card  border-0 crd" style="width: 10rem ;">
+                            <p class="title">Lyrics</p>
+                              <p class="subtitle text-secondary">
+                                Shiva Tandava Lyrics<br>
+                                Jingle Bells Lyrics<br>
+                                Dynamite Lyrics<br>
+                                Memories Lyrics<br>
+                                Gayatri Mantra<br>
+                                Lag Ja Gale Lyrics<br>
+                                Laxmi Ji Aarti Lyrics<br>
+                                Jai Laxmi Mata Aarti<br>
+                                Perfect Lyrics<br>
+                                Hanuman Chalisa Lyrics<br>
+                                Jana Gana Mana Lyrics<br>
+                                Ganesh Aarti Lyrics<br>
+                              </p>
+                              <p class="text-danger title">View All</p>
+                        </div>
+                        </div>
+              
+                                <div class="col-12 col-sm-4 col-md-3 col-lg-2 ms-5 ">
+                                  <div class="card  border-0 crd" style="width: 10rem ;">
+                                  <p class="title">New releases</p>
+                                  <p class="subtitle text-secondary">
+                                    Old Hindi Songs<br>
+                                    Old English Songs<br>
+                                    Old Punjabi Songs<br>
+                                    Old Telugu Songs<br>
+                                    Old Tamil Songs<br>
+                                    Old Bhojpuri Songs<br>
+                                    Old Bengali Songs<br>
+                                    Old Malayalam Songs<br>
+                                    Old Kannada Songs<br>
+                                    Old Marathi Songs<br>
+                                    Old Gujarati Songs<br>
+                                    Old Haryanvi Songs<br>
+                                    Old Urdu Songs<br>
+                                    Old Assamese Songs<br>
+                                    Old Rajasthani Songs<br>
+                                  </p>
+                                  <p class="text-danger title">View All</p>
+                                  
+                                  </div>
+                                </div>
+                
+              </div>
+        </div>
+ </div>
+          
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+<script>
+  let slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active im";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+  </script>
+        
+
+
+</body>
+</html>
