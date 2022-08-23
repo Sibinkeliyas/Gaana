@@ -3,6 +3,7 @@ body{
     margin: 0;
     width: 100%;
     height: 100vh;
+   
 }
 
 .navbar .navbar-nav .nav-item{
@@ -166,4 +167,10 @@ body{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 30px;
+  }
+  .footer{
+    overflow-x: hidden;
+  }
+  .songs{
+    overflow-x: hidden;
   }
