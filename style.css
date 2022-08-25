@@ -1,3 +1,7 @@
+*{
+  overflow-x: hidden;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -174,3 +178,7 @@ body{
   .songs{
     overflow-x: hidden;
   }
+  .crd1{
+    overflow: hidden;
+  }
+  
