@@ -1,4 +1,6 @@
-
+*{
+  
+}
 body{
     padding: 0;
     margin: 0;
@@ -65,10 +67,13 @@ body{
 
 .crd{
     background-color: #fafafb;
+    
      
 }
 
-* {box-sizing:border-box}
+* {box-sizing:border-box;
+  
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -170,10 +175,10 @@ body{
     border-radius: 30px;
   }
   .footer{
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .songs{
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .crd1{
     overflow: hidden;
